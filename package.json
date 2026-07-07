@@ -1,0 +1,33 @@
+{
+  "name": "projectmanagement-backend",
+  "version": "1.0.0",
+  "description": "LaunchCamp Backend is a RESTful API built to power a collaborative project management application.",
+  "keywords": [
+    "launchcamp",
+    "projectmanagement"
+  ],
+  "homepage": "https://github.com/rohitranjanyadav/LaunchCamp-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/rohitranjanyadav/LaunchCamp-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitranjanyadav/LaunchCamp-Backend.git"
+  },
+  "license": "ISC",
+  "author": "Rohit",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "prettier": "3.9.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
